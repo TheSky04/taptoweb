@@ -1,0 +1,10 @@
+.successMessage {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  width: 45%;
+  padding: 2rem;
+  background-color: #37b24d;
+  border-radius: 5px;
+  transform: translateY(50%);
+}

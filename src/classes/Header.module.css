@@ -1,0 +1,29 @@
+.nav {
+  max-width: 100%;
+  background-color: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.list a:link,
+.list a:visited {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.list a:hover,
+.list a:active {
+  opacity: 0.8;
+}
